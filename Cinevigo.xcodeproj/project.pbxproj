@@ -16,6 +16,15 @@
 		1D9EDE5E2C9A1191006F45D3 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE5D2C9A1191006F45D3 /* ObjectMapper */; };
 		1D9EDE612C9A11A2006F45D3 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE602C9A11A2006F45D3 /* NVActivityIndicatorView */; };
 		1D9EDE632C9A11A2006F45D3 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE622C9A11A2006F45D3 /* NVActivityIndicatorViewExtended */; };
+		1D9EDE652C9A1391006F45D3 /* CineNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE642C9A1391006F45D3 /* CineNavigationController.swift */; };
+		1D9EDE672C9A13C3006F45D3 /* CineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE662C9A13C3006F45D3 /* CineViewController.swift */; };
+		1D9EDE692C9A13DF006F45D3 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE682C9A13DF006F45D3 /* Storyboarded.swift */; };
+		1D9EDE6E2C9A1454006F45D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE6D2C9A1454006F45D3 /* Utilities.swift */; };
+		1D9EDE702C9A145C006F45D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE6F2C9A145C006F45D3 /* Constants.swift */; };
+		1D9EDE752C9A14B1006F45D3 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE742C9A14B1006F45D3 /* LoginScreenViewController.swift */; };
+		1D9EDE772C9A14BD006F45D3 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE762C9A14BD006F45D3 /* LoginScreen.storyboard */; };
+		1D9EDE792C9A14D0006F45D3 /* RegisterScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE782C9A14D0006F45D3 /* RegisterScreen.storyboard */; };
+		1D9EDE7B2C9A14EE006F45D3 /* RegisterScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE7A2C9A14EE006F45D3 /* RegisterScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,15 @@
 		1D9EDE462C9A03A1006F45D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D9EDE482C9A03A1006F45D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D9EDE552C9A0E96006F45D3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1D9EDE642C9A1391006F45D3 /* CineNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineNavigationController.swift; sourceTree = "<group>"; };
+		1D9EDE662C9A13C3006F45D3 /* CineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineViewController.swift; sourceTree = "<group>"; };
+		1D9EDE682C9A13DF006F45D3 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		1D9EDE6D2C9A1454006F45D3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1D9EDE6F2C9A145C006F45D3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1D9EDE742C9A14B1006F45D3 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		1D9EDE762C9A14BD006F45D3 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		1D9EDE782C9A14D0006F45D3 /* RegisterScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterScreen.storyboard; sourceTree = "<group>"; };
+		1D9EDE7A2C9A14EE006F45D3 /* RegisterScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,15 @@
 		1D9EDE4E2C9A0DF5006F45D3 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1D9EDE712C9A1463006F45D3 /* Networking */,
+				1D9EDE642C9A1391006F45D3 /* CineNavigationController.swift */,
+				1D9EDE662C9A13C3006F45D3 /* CineViewController.swift */,
+				1D9EDE682C9A13DF006F45D3 /* Storyboarded.swift */,
+				1D9EDE6A2C9A13EB006F45D3 /* CineUIComponents */,
+				1D9EDE6B2C9A13FC006F45D3 /* Extenstions */,
+				1D9EDE6D2C9A1454006F45D3 /* Utilities.swift */,
+				1D9EDE6F2C9A145C006F45D3 /* Constants.swift */,
+				1D9EDE6C2C9A141E006F45D3 /* Validation */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -92,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				1D9EDE452C9A03A1006F45D3 /* LaunchScreen.storyboard */,
+				1D9EDE732C9A1492006F45D3 /* RegisterScreenModule */,
+				1D9EDE722C9A1480006F45D3 /* LoginScreenModule */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -125,6 +154,52 @@
 				1D9EDE3A2C9A039E006F45D3 /* AppDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		1D9EDE6A2C9A13EB006F45D3 /* CineUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CineUIComponents;
+			sourceTree = "<group>";
+		};
+		1D9EDE6B2C9A13FC006F45D3 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		1D9EDE6C2C9A141E006F45D3 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		1D9EDE712C9A1463006F45D3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1D9EDE722C9A1480006F45D3 /* LoginScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D9EDE762C9A14BD006F45D3 /* LoginScreen.storyboard */,
+				1D9EDE742C9A14B1006F45D3 /* LoginScreenViewController.swift */,
+			);
+			path = LoginScreenModule;
+			sourceTree = "<group>";
+		};
+		1D9EDE732C9A1492006F45D3 /* RegisterScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D9EDE782C9A14D0006F45D3 /* RegisterScreen.storyboard */,
+				1D9EDE7A2C9A14EE006F45D3 /* RegisterScreenViewController.swift */,
+			);
+			path = RegisterScreenModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +274,9 @@
 			files = (
 				1D9EDE562C9A0E96006F45D3 /* Colors.xcassets in Resources */,
 				1D9EDE442C9A03A1006F45D3 /* Assets.xcassets in Resources */,
+				1D9EDE772C9A14BD006F45D3 /* LoginScreen.storyboard in Resources */,
 				1D9EDE472C9A03A1006F45D3 /* Base in Resources */,
+				1D9EDE792C9A14D0006F45D3 /* RegisterScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9EDE672C9A13C3006F45D3 /* CineViewController.swift in Sources */,
+				1D9EDE752C9A14B1006F45D3 /* LoginScreenViewController.swift in Sources */,
+				1D9EDE652C9A1391006F45D3 /* CineNavigationController.swift in Sources */,
 				1D9EDE3B2C9A039E006F45D3 /* AppDelegate.swift in Sources */,
+				1D9EDE6E2C9A1454006F45D3 /* Utilities.swift in Sources */,
+				1D9EDE7B2C9A14EE006F45D3 /* RegisterScreenViewController.swift in Sources */,
+				1D9EDE692C9A13DF006F45D3 /* Storyboarded.swift in Sources */,
+				1D9EDE702C9A145C006F45D3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
