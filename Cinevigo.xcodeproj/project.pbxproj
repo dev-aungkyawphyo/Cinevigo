@@ -8,22 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1D9EDE3B2C9A039E006F45D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE3A2C9A039E006F45D3 /* AppDelegate.swift */; };
-		1D9EDE3D2C9A039E006F45D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE3C2C9A039E006F45D3 /* SceneDelegate.swift */; };
-		1D9EDE3F2C9A039E006F45D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE3E2C9A039E006F45D3 /* ViewController.swift */; };
-		1D9EDE422C9A039E006F45D3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE412C9A039E006F45D3 /* Base */; };
 		1D9EDE442C9A03A1006F45D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE432C9A03A1006F45D3 /* Assets.xcassets */; };
 		1D9EDE472C9A03A1006F45D3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE462C9A03A1006F45D3 /* Base */; };
+		1D9EDE562C9A0E96006F45D3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE552C9A0E96006F45D3 /* Colors.xcassets */; };
+		1D9EDE592C9A117A006F45D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE582C9A117A006F45D3 /* Alamofire */; };
+		1D9EDE5B2C9A117A006F45D3 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE5A2C9A117A006F45D3 /* AlamofireDynamic */; };
+		1D9EDE5E2C9A1191006F45D3 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE5D2C9A1191006F45D3 /* ObjectMapper */; };
+		1D9EDE612C9A11A2006F45D3 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE602C9A11A2006F45D3 /* NVActivityIndicatorView */; };
+		1D9EDE632C9A11A2006F45D3 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE622C9A11A2006F45D3 /* NVActivityIndicatorViewExtended */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D9EDE372C9A039E006F45D3 /* Cinevigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinevigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9EDE3A2C9A039E006F45D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D9EDE3C2C9A039E006F45D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1D9EDE3E2C9A039E006F45D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1D9EDE412C9A039E006F45D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D9EDE432C9A03A1006F45D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9EDE462C9A03A1006F45D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D9EDE482C9A03A1006F45D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9EDE552C9A0E96006F45D3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +32,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9EDE612C9A11A2006F45D3 /* NVActivityIndicatorView in Frameworks */,
+				1D9EDE5E2C9A1191006F45D3 /* ObjectMapper in Frameworks */,
+				1D9EDE592C9A117A006F45D3 /* Alamofire in Frameworks */,
+				1D9EDE5B2C9A117A006F45D3 /* AlamofireDynamic in Frameworks */,
+				1D9EDE632C9A11A2006F45D3 /* NVActivityIndicatorViewExtended in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +62,69 @@
 		1D9EDE392C9A039E006F45D3 /* Cinevigo */ = {
 			isa = PBXGroup;
 			children = (
-				1D9EDE3A2C9A039E006F45D3 /* AppDelegate.swift */,
-				1D9EDE3C2C9A039E006F45D3 /* SceneDelegate.swift */,
-				1D9EDE3E2C9A039E006F45D3 /* ViewController.swift */,
-				1D9EDE402C9A039E006F45D3 /* Main.storyboard */,
-				1D9EDE432C9A03A1006F45D3 /* Assets.xcassets */,
-				1D9EDE452C9A03A1006F45D3 /* LaunchScreen.storyboard */,
+				1D9EDE542C9A0E49006F45D3 /* Application */,
+				1D9EDE4E2C9A0DF5006F45D3 /* Helpers */,
+				1D9EDE4F2C9A0DFD006F45D3 /* Models */,
+				1D9EDE502C9A0E05006F45D3 /* Views */,
+				1D9EDE512C9A0E0C006F45D3 /* ViewModels */,
+				1D9EDE522C9A0E15006F45D3 /* Coordinator */,
+				1D9EDE532C9A0E2D006F45D3 /* Resources */,
 				1D9EDE482C9A03A1006F45D3 /* Info.plist */,
 			);
 			path = Cinevigo;
+			sourceTree = "<group>";
+		};
+		1D9EDE4E2C9A0DF5006F45D3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1D9EDE4F2C9A0DFD006F45D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D9EDE502C9A0E05006F45D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D9EDE452C9A03A1006F45D3 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D9EDE512C9A0E0C006F45D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1D9EDE522C9A0E15006F45D3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1D9EDE532C9A0E2D006F45D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D9EDE432C9A03A1006F45D3 /* Assets.xcassets */,
+				1D9EDE552C9A0E96006F45D3 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1D9EDE542C9A0E49006F45D3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1D9EDE3A2C9A039E006F45D3 /* AppDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +143,13 @@
 			dependencies = (
 			);
 			name = Cinevigo;
+			packageProductDependencies = (
+				1D9EDE582C9A117A006F45D3 /* Alamofire */,
+				1D9EDE5A2C9A117A006F45D3 /* AlamofireDynamic */,
+				1D9EDE5D2C9A1191006F45D3 /* ObjectMapper */,
+				1D9EDE602C9A11A2006F45D3 /* NVActivityIndicatorView */,
+				1D9EDE622C9A11A2006F45D3 /* NVActivityIndicatorViewExtended */,
+			);
 			productName = Cinevigo;
 			productReference = 1D9EDE372C9A039E006F45D3 /* Cinevigo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +178,11 @@
 				Base,
 			);
 			mainGroup = 1D9EDE2E2C9A039E006F45D3;
+			packageReferences = (
+				1D9EDE572C9A117A006F45D3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1D9EDE5C2C9A1191006F45D3 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				1D9EDE5F2C9A11A2006F45D3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			productRefGroup = 1D9EDE382C9A039E006F45D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9EDE562C9A0E96006F45D3 /* Colors.xcassets in Resources */,
 				1D9EDE442C9A03A1006F45D3 /* Assets.xcassets in Resources */,
 				1D9EDE472C9A03A1006F45D3 /* Base in Resources */,
-				1D9EDE422C9A039E006F45D3 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9EDE3F2C9A039E006F45D3 /* ViewController.swift in Sources */,
 				1D9EDE3B2C9A039E006F45D3 /* AppDelegate.swift in Sources */,
-				1D9EDE3D2C9A039E006F45D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1D9EDE402C9A039E006F45D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D9EDE412C9A039E006F45D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1D9EDE452C9A03A1006F45D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +359,6 @@
 				INFOPLIST_FILE = Cinevigo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +386,6 @@
 				INFOPLIST_FILE = Cinevigo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +423,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D9EDE572C9A117A006F45D3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		1D9EDE5C2C9A1191006F45D3 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+		1D9EDE5F2C9A11A2006F45D3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D9EDE582C9A117A006F45D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D9EDE572C9A117A006F45D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1D9EDE5A2C9A117A006F45D3 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D9EDE572C9A117A006F45D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		1D9EDE5D2C9A1191006F45D3 /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D9EDE5C2C9A1191006F45D3 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+		1D9EDE602C9A11A2006F45D3 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D9EDE5F2C9A11A2006F45D3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		1D9EDE622C9A11A2006F45D3 /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D9EDE5F2C9A11A2006F45D3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D9EDE2F2C9A039E006F45D3 /* Project object */;
 }
