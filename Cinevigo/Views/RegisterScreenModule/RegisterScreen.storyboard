@@ -17,10 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Cj-2a-ffU">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Cj-2a-ffU" customClass="CineView" customModule="Cinevigo" customModuleProvider="target">
                                 <rect key="frame" x="20" y="208.66666666666663" width="353" height="435"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CineVigoLogo" translatesAutoresizingMaskIntoConstraints="NO" id="E2F-YN-m16">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CineVigoLogo" translatesAutoresizingMaskIntoConstraints="NO" id="E2F-YN-m16" customClass="CineImageView" customModule="Cinevigo" customModuleProvider="target">
                                         <rect key="frame" x="96.666666666666686" y="-80" width="160" height="160"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="160" id="N1k-tx-g0j"/>
@@ -36,7 +36,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="M4X-66-11I">
                                                         <rect key="frame" x="0.0" y="0.0" width="313" height="55"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gfL-6n-T2r">
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gfL-6n-T2r" customClass="CineTextField" customModule="Cinevigo" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="313" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="35" id="eRH-y6-aCE"/>
@@ -70,7 +70,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="YIM-Ky-HAw">
                                                         <rect key="frame" x="0.0" y="0.0" width="313" height="55"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kvE-Gf-HVK">
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kvE-Gf-HVK" customClass="CineTextField" customModule="Cinevigo" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="313" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="35" id="G9N-EM-H4m"/>
@@ -104,7 +104,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ETR-0T-Dhq">
                                                         <rect key="frame" x="0.0" y="0.0" width="313" height="55"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IwK-Us-7wa">
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IwK-Us-7wa" customClass="CineTextField" customModule="Cinevigo" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="313" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="35" id="2Tp-aT-uqU"/>
@@ -138,7 +138,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="DW7-Q0-fhB">
                                                         <rect key="frame" x="0.0" y="0.0" width="313" height="55"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="47m-Lr-UGk">
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="47m-Lr-UGk" customClass="CineTextField" customModule="Cinevigo" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="313" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="35" id="Afs-hd-aP2"/>
@@ -168,7 +168,7 @@
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXl-RQ-zOc" customClass="OceanButton" customModule="OceanChat_iOS" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXl-RQ-zOc" customClass="CineButton" customModule="Cinevigo" customModuleProvider="target">
                                         <rect key="frame" x="129.66666666666666" y="370" width="93.666666666666657" height="45"/>
                                         <color key="backgroundColor" name="PrimaryColor"/>
                                         <constraints>
@@ -210,12 +210,45 @@
                             <constraint firstItem="3Cj-2a-ffU" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="pKJ-PV-qXq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmPasswordErrorLabel" destination="9nI-Mg-7e9" id="qd3-ld-IPA"/>
+                        <outlet property="confirmPasswordTextField" destination="47m-Lr-UGk" id="KWA-7c-PDg"/>
+                        <outlet property="logoImageView" destination="E2F-YN-m16" id="0im-Jo-pUx"/>
+                        <outlet property="nameTextField" destination="gfL-6n-T2r" id="g04-gE-F6Z"/>
+                        <outlet property="namneErrorLabel" destination="DAY-It-Oq3" id="8Ie-SI-qqO"/>
+                        <outlet property="passwordErrorLabel" destination="rIG-DE-Bor" id="Jzp-Ry-k67"/>
+                        <outlet property="passwordTextField" destination="IwK-Us-7wa" id="Jks-Hl-1b8"/>
+                        <outlet property="phoneNumberErrorLabel" destination="YxP-sU-Whf" id="dmg-5i-jaH"/>
+                        <outlet property="phoneNumberTextField" destination="kvE-Gf-HVK" id="fuL-I2-yve"/>
+                        <outletCollection property="errorLabelCollection" destination="DAY-It-Oq3" collectionClass="NSMutableArray" id="7z7-Td-y6v"/>
+                        <outletCollection property="errorLabelCollection" destination="YxP-sU-Whf" collectionClass="NSMutableArray" id="VLA-Xw-AZ7"/>
+                        <outletCollection property="errorLabelCollection" destination="rIG-DE-Bor" collectionClass="NSMutableArray" id="U1S-nu-zZp"/>
+                        <outletCollection property="errorLabelCollection" destination="9nI-Mg-7e9" collectionClass="NSMutableArray" id="FZG-Ht-UmG"/>
+                        <outletCollection property="textFieldCollection" destination="gfL-6n-T2r" collectionClass="NSMutableArray" id="MCL-SG-gQe"/>
+                        <outletCollection property="textFieldCollection" destination="kvE-Gf-HVK" collectionClass="NSMutableArray" id="Zyz-LS-jm6"/>
+                        <outletCollection property="textFieldCollection" destination="IwK-Us-7wa" collectionClass="NSMutableArray" id="fX5-ki-dd9"/>
+                        <outletCollection property="textFieldCollection" destination="47m-Lr-UGk" collectionClass="NSMutableArray" id="7na-Q3-ike"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="64.885496183206101" y="-34.507042253521128"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="47m-Lr-UGk">
+            <size key="intrinsicContentSize" width="117.66666666666667" height="17"/>
+        </designable>
+        <designable name="IwK-Us-7wa">
+            <size key="intrinsicContentSize" width="62.333333333333336" height="17"/>
+        </designable>
+        <designable name="gfL-6n-T2r">
+            <size key="intrinsicContentSize" width="38" height="18.666666666666668"/>
+        </designable>
+        <designable name="kvE-Gf-HVK">
+            <size key="intrinsicContentSize" width="96.666666666666671" height="18.666666666666668"/>
+        </designable>
+    </designables>
     <resources>
         <image name="CineVigoLogo" width="325" height="260"/>
         <namedColor name="BtnTextColor">

@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D949E422C9B5244008A8F21 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D949E412C9B5244008A8F21 /* Alamofire */; };
+		1D949E442C9B533D008A8F21 /* CineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E432C9B533D008A8F21 /* CineTextField.swift */; };
+		1D949E462C9B534D008A8F21 /* CineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E452C9B534D008A8F21 /* CineButton.swift */; };
+		1D949E482C9B535B008A8F21 /* CineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E472C9B535B008A8F21 /* CineView.swift */; };
+		1D949E4A2C9B5378008A8F21 /* CineActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E492C9B5378008A8F21 /* CineActivityIndicator.swift */; };
+		1D949E4C2C9B53A6008A8F21 /* CineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E4B2C9B53A6008A8F21 /* CineImageView.swift */; };
+		1D949E4E2C9B68EA008A8F21 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E4D2C9B68EA008A8F21 /* UIColor+Extensions.swift */; };
+		1D949E502C9B7983008A8F21 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E4F2C9B7983008A8F21 /* UITextField+Extensions.swift */; };
 		1D9EDE3B2C9A039E006F45D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9EDE3A2C9A039E006F45D3 /* AppDelegate.swift */; };
 		1D9EDE442C9A03A1006F45D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE432C9A03A1006F45D3 /* Assets.xcassets */; };
 		1D9EDE472C9A03A1006F45D3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE462C9A03A1006F45D3 /* Base */; };
 		1D9EDE562C9A0E96006F45D3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EDE552C9A0E96006F45D3 /* Colors.xcassets */; };
-		1D9EDE592C9A117A006F45D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE582C9A117A006F45D3 /* Alamofire */; };
-		1D9EDE5B2C9A117A006F45D3 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE5A2C9A117A006F45D3 /* AlamofireDynamic */; };
 		1D9EDE5E2C9A1191006F45D3 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE5D2C9A1191006F45D3 /* ObjectMapper */; };
 		1D9EDE612C9A11A2006F45D3 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE602C9A11A2006F45D3 /* NVActivityIndicatorView */; };
 		1D9EDE632C9A11A2006F45D3 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9EDE622C9A11A2006F45D3 /* NVActivityIndicatorViewExtended */; };
@@ -28,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D949E432C9B533D008A8F21 /* CineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTextField.swift; sourceTree = "<group>"; };
+		1D949E452C9B534D008A8F21 /* CineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineButton.swift; sourceTree = "<group>"; };
+		1D949E472C9B535B008A8F21 /* CineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineView.swift; sourceTree = "<group>"; };
+		1D949E492C9B5378008A8F21 /* CineActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineActivityIndicator.swift; sourceTree = "<group>"; };
+		1D949E4B2C9B53A6008A8F21 /* CineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineImageView.swift; sourceTree = "<group>"; };
+		1D949E4D2C9B68EA008A8F21 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		1D949E4F2C9B7983008A8F21 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		1D9EDE372C9A039E006F45D3 /* Cinevigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinevigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9EDE3A2C9A039E006F45D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D9EDE432C9A03A1006F45D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,9 +64,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D9EDE612C9A11A2006F45D3 /* NVActivityIndicatorView in Frameworks */,
+				1D949E422C9B5244008A8F21 /* Alamofire in Frameworks */,
 				1D9EDE5E2C9A1191006F45D3 /* ObjectMapper in Frameworks */,
-				1D9EDE592C9A117A006F45D3 /* Alamofire in Frameworks */,
-				1D9EDE5B2C9A117A006F45D3 /* AlamofireDynamic in Frameworks */,
 				1D9EDE632C9A11A2006F45D3 /* NVActivityIndicatorViewExtended in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,8 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				1D9EDE452C9A03A1006F45D3 /* LaunchScreen.storyboard */,
-				1D9EDE732C9A1492006F45D3 /* RegisterScreenModule */,
 				1D9EDE722C9A1480006F45D3 /* LoginScreenModule */,
+				1D9EDE732C9A1492006F45D3 /* RegisterScreenModule */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +171,11 @@
 		1D9EDE6A2C9A13EB006F45D3 /* CineUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				1D949E432C9B533D008A8F21 /* CineTextField.swift */,
+				1D949E452C9B534D008A8F21 /* CineButton.swift */,
+				1D949E472C9B535B008A8F21 /* CineView.swift */,
+				1D949E4B2C9B53A6008A8F21 /* CineImageView.swift */,
+				1D949E492C9B5378008A8F21 /* CineActivityIndicator.swift */,
 			);
 			path = CineUIComponents;
 			sourceTree = "<group>";
@@ -166,6 +183,8 @@
 		1D9EDE6B2C9A13FC006F45D3 /* Extenstions */ = {
 			isa = PBXGroup;
 			children = (
+				1D949E4F2C9B7983008A8F21 /* UITextField+Extensions.swift */,
+				1D949E4D2C9B68EA008A8F21 /* UIColor+Extensions.swift */,
 			);
 			path = Extenstions;
 			sourceTree = "<group>";
@@ -219,11 +238,10 @@
 			);
 			name = Cinevigo;
 			packageProductDependencies = (
-				1D9EDE582C9A117A006F45D3 /* Alamofire */,
-				1D9EDE5A2C9A117A006F45D3 /* AlamofireDynamic */,
 				1D9EDE5D2C9A1191006F45D3 /* ObjectMapper */,
 				1D9EDE602C9A11A2006F45D3 /* NVActivityIndicatorView */,
 				1D9EDE622C9A11A2006F45D3 /* NVActivityIndicatorViewExtended */,
+				1D949E412C9B5244008A8F21 /* Alamofire */,
 			);
 			productName = Cinevigo;
 			productReference = 1D9EDE372C9A039E006F45D3 /* Cinevigo.app */;
@@ -254,9 +272,9 @@
 			);
 			mainGroup = 1D9EDE2E2C9A039E006F45D3;
 			packageReferences = (
-				1D9EDE572C9A117A006F45D3 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				1D9EDE5C2C9A1191006F45D3 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
 				1D9EDE5F2C9A11A2006F45D3 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				1D949E402C9B5244008A8F21 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 1D9EDE382C9A039E006F45D3 /* Products */;
 			projectDirPath = "";
@@ -289,12 +307,19 @@
 			files = (
 				1D9EDE672C9A13C3006F45D3 /* CineViewController.swift in Sources */,
 				1D9EDE752C9A14B1006F45D3 /* LoginScreenViewController.swift in Sources */,
+				1D949E462C9B534D008A8F21 /* CineButton.swift in Sources */,
+				1D949E502C9B7983008A8F21 /* UITextField+Extensions.swift in Sources */,
 				1D9EDE652C9A1391006F45D3 /* CineNavigationController.swift in Sources */,
+				1D949E482C9B535B008A8F21 /* CineView.swift in Sources */,
 				1D9EDE3B2C9A039E006F45D3 /* AppDelegate.swift in Sources */,
 				1D9EDE6E2C9A1454006F45D3 /* Utilities.swift in Sources */,
+				1D949E4C2C9B53A6008A8F21 /* CineImageView.swift in Sources */,
+				1D949E4A2C9B5378008A8F21 /* CineActivityIndicator.swift in Sources */,
 				1D9EDE7B2C9A14EE006F45D3 /* RegisterScreenViewController.swift in Sources */,
 				1D9EDE692C9A13DF006F45D3 /* Storyboarded.swift in Sources */,
+				1D949E4E2C9B68EA008A8F21 /* UIColor+Extensions.swift in Sources */,
 				1D9EDE702C9A145C006F45D3 /* Constants.swift in Sources */,
+				1D949E442C9B533D008A8F21 /* CineTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +468,7 @@
 				INFOPLIST_FILE = Cinevigo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,6 +496,7 @@
 				INFOPLIST_FILE = Cinevigo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,7 +536,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1D9EDE572C9A117A006F45D3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		1D949E402C9B5244008A8F21 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -536,15 +563,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1D9EDE582C9A117A006F45D3 /* Alamofire */ = {
+		1D949E412C9B5244008A8F21 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1D9EDE572C9A117A006F45D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 1D949E402C9B5244008A8F21 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		1D9EDE5A2C9A117A006F45D3 /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1D9EDE572C9A117A006F45D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 		1D9EDE5D2C9A1191006F45D3 /* ObjectMapper */ = {
 			isa = XCSwiftPackageProductDependency;

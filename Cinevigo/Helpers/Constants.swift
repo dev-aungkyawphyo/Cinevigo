@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+enum AssetColor: String {
+    case btnTextColor = "BtnTextColor"
+    case cellBGColor = "CellBGColor"
+    case primaryColor = "PrimaryColor"
+    case primaryTextColor = "PrimaryTextColor"
+    case primaryViewColor = "PrimaryViewColor"
+    case searchBarBGColor = "SearchBarBGColor"
+    case secondaryTextColor = "SecondaryTextColor"
+    case tertiaryTextColor = "TertiaryTextColor"
+}

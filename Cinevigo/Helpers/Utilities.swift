@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+func printDebug(_ T: Any...) {
+    #if DEBUG
+    print(T)
+    #endif
+}
