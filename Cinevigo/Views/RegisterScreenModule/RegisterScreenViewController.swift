@@ -7,23 +7,29 @@
 
 import UIKit
 
-class RegisterScreenViewController: UIViewController {
+class RegisterScreenViewController: CineViewController {
 
+    // MARK: - IBOutlets
+    @IBOutlet var textFieldCollection: [CineTextField]!
+    @IBOutlet var errorLabelCollection: [UILabel]!
+    
+    @IBOutlet weak var nameTextField: CineTextField!
+    @IBOutlet weak var phoneNumberTextField: CineTextField!
+    @IBOutlet weak var passwordTextField: CineTextField!
+    @IBOutlet weak var confirmPasswordTextField: CineTextField!
+    
+    @IBOutlet weak var namneErrorLabel: UILabel!
+    @IBOutlet weak var phoneNumberErrorLabel: UILabel!
+    @IBOutlet weak var passwordErrorLabel: UILabel!
+    @IBOutlet weak var confirmPasswordErrorLabel: UILabel!
+    
+    @IBOutlet weak var logoImageView: CineImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+  
 }
