@@ -20,13 +20,18 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Cj-2a-ffU" customClass="CineView" customModule="Cinevigo" customModuleProvider="target">
                                 <rect key="frame" x="20" y="208.66666666666663" width="353" height="435"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CineVigoLogo" translatesAutoresizingMaskIntoConstraints="NO" id="E2F-YN-m16" customClass="CineImageView" customModule="Cinevigo" customModuleProvider="target">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="E2F-YN-m16" customClass="CineImageView" customModule="Cinevigo" customModuleProvider="target">
                                         <rect key="frame" x="96.666666666666686" y="-80" width="160" height="160"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="160" id="N1k-tx-g0j"/>
                                             <constraint firstAttribute="width" secondItem="E2F-YN-m16" secondAttribute="height" multiplier="1:1" id="u1H-EO-zKC"/>
                                         </constraints>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlh-H4-05c">
+                                        <rect key="frame" x="97" y="-80.666666666666629" width="160" height="160"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                    </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="loT-af-aH5">
                                         <rect key="frame" x="20" y="120.00000000000003" width="313" height="249.99999999999997"/>
                                         <subviews>
@@ -188,11 +193,15 @@
                                 </subviews>
                                 <color key="backgroundColor" name="PrimaryViewColor"/>
                                 <constraints>
+                                    <constraint firstItem="nlh-H4-05c" firstAttribute="width" secondItem="E2F-YN-m16" secondAttribute="width" id="7Gt-7K-NwO"/>
                                     <constraint firstItem="loT-af-aH5" firstAttribute="leading" secondItem="3Cj-2a-ffU" secondAttribute="leading" constant="20" id="ITF-iQ-GEW"/>
                                     <constraint firstAttribute="bottom" secondItem="tXl-RQ-zOc" secondAttribute="bottom" priority="750" constant="20" symbolic="YES" id="IrO-QN-FP6"/>
+                                    <constraint firstItem="nlh-H4-05c" firstAttribute="height" secondItem="E2F-YN-m16" secondAttribute="height" id="NKb-kh-H8H"/>
                                     <constraint firstItem="E2F-YN-m16" firstAttribute="top" secondItem="3Cj-2a-ffU" secondAttribute="top" constant="-80" id="Nfn-kF-Bsh"/>
+                                    <constraint firstItem="nlh-H4-05c" firstAttribute="centerX" secondItem="E2F-YN-m16" secondAttribute="centerX" id="O2F-ZS-RhM"/>
                                     <constraint firstItem="tXl-RQ-zOc" firstAttribute="centerX" secondItem="loT-af-aH5" secondAttribute="centerX" id="SrO-G5-6Pc"/>
                                     <constraint firstItem="tXl-RQ-zOc" firstAttribute="top" secondItem="loT-af-aH5" secondAttribute="bottom" id="ZGq-AU-dFl"/>
+                                    <constraint firstItem="nlh-H4-05c" firstAttribute="centerY" secondItem="E2F-YN-m16" secondAttribute="centerY" id="qfj-IW-iKL"/>
                                     <constraint firstItem="loT-af-aH5" firstAttribute="centerX" secondItem="3Cj-2a-ffU" secondAttribute="centerX" id="sdd-MQ-TAN"/>
                                     <constraint firstItem="E2F-YN-m16" firstAttribute="centerX" secondItem="3Cj-2a-ffU" secondAttribute="centerX" id="tu7-By-Uhd"/>
                                     <constraint firstAttribute="trailing" secondItem="loT-af-aH5" secondAttribute="trailing" constant="20" id="wzL-Fm-gbO"/>
@@ -213,13 +222,13 @@
                     <connections>
                         <outlet property="confirmPasswordErrorLabel" destination="9nI-Mg-7e9" id="qd3-ld-IPA"/>
                         <outlet property="confirmPasswordTextField" destination="47m-Lr-UGk" id="KWA-7c-PDg"/>
-                        <outlet property="logoImageView" destination="E2F-YN-m16" id="0im-Jo-pUx"/>
                         <outlet property="nameTextField" destination="gfL-6n-T2r" id="g04-gE-F6Z"/>
                         <outlet property="namneErrorLabel" destination="DAY-It-Oq3" id="8Ie-SI-qqO"/>
                         <outlet property="passwordErrorLabel" destination="rIG-DE-Bor" id="Jzp-Ry-k67"/>
                         <outlet property="passwordTextField" destination="IwK-Us-7wa" id="Jks-Hl-1b8"/>
                         <outlet property="phoneNumberErrorLabel" destination="YxP-sU-Whf" id="dmg-5i-jaH"/>
                         <outlet property="phoneNumberTextField" destination="kvE-Gf-HVK" id="fuL-I2-yve"/>
+                        <outlet property="profileImageView" destination="E2F-YN-m16" id="SnS-pU-BHV"/>
                         <outletCollection property="errorLabelCollection" destination="DAY-It-Oq3" collectionClass="NSMutableArray" id="7z7-Td-y6v"/>
                         <outletCollection property="errorLabelCollection" destination="YxP-sU-Whf" collectionClass="NSMutableArray" id="VLA-Xw-AZ7"/>
                         <outletCollection property="errorLabelCollection" destination="rIG-DE-Bor" collectionClass="NSMutableArray" id="U1S-nu-zZp"/>
@@ -239,6 +248,9 @@
         <designable name="47m-Lr-UGk">
             <size key="intrinsicContentSize" width="117.66666666666667" height="17"/>
         </designable>
+        <designable name="E2F-YN-m16">
+            <size key="intrinsicContentSize" width="800" height="800"/>
+        </designable>
         <designable name="IwK-Us-7wa">
             <size key="intrinsicContentSize" width="62.333333333333336" height="17"/>
         </designable>
@@ -248,9 +260,12 @@
         <designable name="kvE-Gf-HVK">
             <size key="intrinsicContentSize" width="96.666666666666671" height="18.666666666666668"/>
         </designable>
+        <designable name="tXl-RQ-zOc">
+            <size key="intrinsicContentSize" width="60" height="32"/>
+        </designable>
     </designables>
     <resources>
-        <image name="CineVigoLogo" width="325" height="260"/>
+        <image name="profile" width="800" height="800"/>
         <namedColor name="BtnTextColor">
             <color red="0.98000001907348633" green="0.98000001907348633" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
