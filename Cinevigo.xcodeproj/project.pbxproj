@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2424852C9CAD910027B38E /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424842C9CAD910027B38E /* APIConfiguration.swift */; };
+		1D2424872C9CAD9E0027B38E /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424862C9CAD9E0027B38E /* APIConstants.swift */; };
+		1D2424892C9CADAD0027B38E /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424882C9CADAD0027B38E /* APIRouter.swift */; };
+		1D24248B2C9CADBA0027B38E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24248A2C9CADBA0027B38E /* APIClient.swift */; };
+		1D24248D2C9CADC60027B38E /* AlamofireLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24248C2C9CADC60027B38E /* AlamofireLogger.swift */; };
+		1D24248F2C9CADD60027B38E /* NetworkingErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24248E2C9CADD60027B38E /* NetworkingErrors.swift */; };
+		1D2424912C9CB1460027B38E /* MapperObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424902C9CB1460027B38E /* MapperObject.swift */; };
+		1D2424932C9CB15A0027B38E /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424922C9CB15A0027B38E /* LoginModel.swift */; };
+		1D2424952C9CB1620027B38E /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424942C9CB1620027B38E /* RegisterModel.swift */; };
+		1D2424972C9CC9790027B38E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424962C9CC9790027B38E /* String+Extensions.swift */; };
+		1D2424992C9CC98C0027B38E /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424982C9CC98C0027B38E /* Data+Extensions.swift */; };
 		1D949E422C9B5244008A8F21 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D949E412C9B5244008A8F21 /* Alamofire */; };
 		1D949E442C9B533D008A8F21 /* CineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E432C9B533D008A8F21 /* CineTextField.swift */; };
 		1D949E462C9B534D008A8F21 /* CineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E452C9B534D008A8F21 /* CineButton.swift */; };
@@ -34,6 +45,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D2424842C9CAD910027B38E /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		1D2424862C9CAD9E0027B38E /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		1D2424882C9CADAD0027B38E /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		1D24248A2C9CADBA0027B38E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1D24248C2C9CADC60027B38E /* AlamofireLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireLogger.swift; sourceTree = "<group>"; };
+		1D24248E2C9CADD60027B38E /* NetworkingErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingErrors.swift; sourceTree = "<group>"; };
+		1D2424902C9CB1460027B38E /* MapperObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapperObject.swift; sourceTree = "<group>"; };
+		1D2424922C9CB15A0027B38E /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		1D2424942C9CB1620027B38E /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		1D2424962C9CC9790027B38E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		1D2424982C9CC98C0027B38E /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		1D949E432C9B533D008A8F21 /* CineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTextField.swift; sourceTree = "<group>"; };
 		1D949E452C9B534D008A8F21 /* CineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineButton.swift; sourceTree = "<group>"; };
 		1D949E472C9B535B008A8F21 /* CineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineView.swift; sourceTree = "<group>"; };
@@ -123,6 +145,9 @@
 		1D9EDE4F2C9A0DFD006F45D3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1D2424902C9CB1460027B38E /* MapperObject.swift */,
+				1D2424922C9CB15A0027B38E /* LoginModel.swift */,
+				1D2424942C9CB1620027B38E /* RegisterModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,6 +210,8 @@
 			children = (
 				1D949E4F2C9B7983008A8F21 /* UITextField+Extensions.swift */,
 				1D949E4D2C9B68EA008A8F21 /* UIColor+Extensions.swift */,
+				1D2424962C9CC9790027B38E /* String+Extensions.swift */,
+				1D2424982C9CC98C0027B38E /* Data+Extensions.swift */,
 			);
 			path = Extenstions;
 			sourceTree = "<group>";
@@ -199,6 +226,12 @@
 		1D9EDE712C9A1463006F45D3 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				1D2424842C9CAD910027B38E /* APIConfiguration.swift */,
+				1D2424862C9CAD9E0027B38E /* APIConstants.swift */,
+				1D2424882C9CADAD0027B38E /* APIRouter.swift */,
+				1D24248A2C9CADBA0027B38E /* APIClient.swift */,
+				1D24248C2C9CADC60027B38E /* AlamofireLogger.swift */,
+				1D24248E2C9CADD60027B38E /* NetworkingErrors.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -306,17 +339,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D9EDE672C9A13C3006F45D3 /* CineViewController.swift in Sources */,
+				1D2424892C9CADAD0027B38E /* APIRouter.swift in Sources */,
 				1D9EDE752C9A14B1006F45D3 /* LoginScreenViewController.swift in Sources */,
+				1D2424872C9CAD9E0027B38E /* APIConstants.swift in Sources */,
+				1D24248D2C9CADC60027B38E /* AlamofireLogger.swift in Sources */,
 				1D949E462C9B534D008A8F21 /* CineButton.swift in Sources */,
+				1D2424852C9CAD910027B38E /* APIConfiguration.swift in Sources */,
+				1D2424992C9CC98C0027B38E /* Data+Extensions.swift in Sources */,
+				1D24248B2C9CADBA0027B38E /* APIClient.swift in Sources */,
 				1D949E502C9B7983008A8F21 /* UITextField+Extensions.swift in Sources */,
+				1D2424912C9CB1460027B38E /* MapperObject.swift in Sources */,
 				1D9EDE652C9A1391006F45D3 /* CineNavigationController.swift in Sources */,
 				1D949E482C9B535B008A8F21 /* CineView.swift in Sources */,
 				1D9EDE3B2C9A039E006F45D3 /* AppDelegate.swift in Sources */,
+				1D2424932C9CB15A0027B38E /* LoginModel.swift in Sources */,
 				1D9EDE6E2C9A1454006F45D3 /* Utilities.swift in Sources */,
+				1D2424972C9CC9790027B38E /* String+Extensions.swift in Sources */,
 				1D949E4C2C9B53A6008A8F21 /* CineImageView.swift in Sources */,
 				1D949E4A2C9B5378008A8F21 /* CineActivityIndicator.swift in Sources */,
 				1D9EDE7B2C9A14EE006F45D3 /* RegisterScreenViewController.swift in Sources */,
 				1D9EDE692C9A13DF006F45D3 /* Storyboarded.swift in Sources */,
+				1D24248F2C9CADD60027B38E /* NetworkingErrors.swift in Sources */,
+				1D2424952C9CB1620027B38E /* RegisterModel.swift in Sources */,
 				1D949E4E2C9B68EA008A8F21 /* UIColor+Extensions.swift in Sources */,
 				1D9EDE702C9A145C006F45D3 /* Constants.swift in Sources */,
 				1D949E442C9B533D008A8F21 /* CineTextField.swift in Sources */,

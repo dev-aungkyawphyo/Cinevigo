@@ -23,7 +23,7 @@ class RegisterScreenViewController: CineViewController {
     @IBOutlet weak var passwordErrorLabel: UILabel!
     @IBOutlet weak var confirmPasswordErrorLabel: UILabel!
     
-    @IBOutlet weak var logoImageView: CineImageView!
+    @IBOutlet weak var profileImageView: CineImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
