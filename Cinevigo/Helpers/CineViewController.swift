@@ -17,12 +17,12 @@ class CineViewController: UIViewController, Storyboarded {
     
     /// Start Loading ...
     func startLoading() {
-        // TODO: NVActivity action need
+        CineActivityIndicator.loading.showUniversalLoadingView(true)
     }
     
     /// Stop Loading ...
     func stopLoading() {
-        // TODO: NVActivity action need
+        CineActivityIndicator.loading.showUniversalLoadingView(false)
     }
 
 }

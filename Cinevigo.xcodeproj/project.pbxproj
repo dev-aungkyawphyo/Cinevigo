@@ -18,6 +18,12 @@
 		1D2424952C9CB1620027B38E /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424942C9CB1620027B38E /* RegisterModel.swift */; };
 		1D2424972C9CC9790027B38E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424962C9CC9790027B38E /* String+Extensions.swift */; };
 		1D2424992C9CC98C0027B38E /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2424982C9CC98C0027B38E /* Data+Extensions.swift */; };
+		1D33790A2C9DFA35008C83D2 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3379092C9DFA35008C83D2 /* UIViewController+Extensions.swift */; };
+		1D33790C2C9DFF95008C83D2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33790B2C9DFF95008C83D2 /* LoginViewModel.swift */; };
+		1D33790E2C9E0166008C83D2 /* PasswordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33790D2C9E0166008C83D2 /* PasswordType.swift */; };
+		1D3379102C9E0188008C83D2 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33790F2C9E0188008C83D2 /* ValidationError.swift */; };
+		1D3379122C9E01A1008C83D2 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3379112C9E01A1008C83D2 /* ValidationService.swift */; };
+		1D3379142C9E01FC008C83D2 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3379132C9E01FC008C83D2 /* RegisterViewModel.swift */; };
 		1D949E422C9B5244008A8F21 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D949E412C9B5244008A8F21 /* Alamofire */; };
 		1D949E442C9B533D008A8F21 /* CineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E432C9B533D008A8F21 /* CineTextField.swift */; };
 		1D949E462C9B534D008A8F21 /* CineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D949E452C9B534D008A8F21 /* CineButton.swift */; };
@@ -56,6 +62,12 @@
 		1D2424942C9CB1620027B38E /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		1D2424962C9CC9790027B38E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		1D2424982C9CC98C0027B38E /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		1D3379092C9DFA35008C83D2 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		1D33790B2C9DFF95008C83D2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1D33790D2C9E0166008C83D2 /* PasswordType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordType.swift; sourceTree = "<group>"; };
+		1D33790F2C9E0188008C83D2 /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		1D3379112C9E01A1008C83D2 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
+		1D3379132C9E01FC008C83D2 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		1D949E432C9B533D008A8F21 /* CineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineTextField.swift; sourceTree = "<group>"; };
 		1D949E452C9B534D008A8F21 /* CineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineButton.swift; sourceTree = "<group>"; };
 		1D949E472C9B535B008A8F21 /* CineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineView.swift; sourceTree = "<group>"; };
@@ -165,6 +177,8 @@
 		1D9EDE512C9A0E0C006F45D3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1D33790B2C9DFF95008C83D2 /* LoginViewModel.swift */,
+				1D3379132C9E01FC008C83D2 /* RegisterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -208,6 +222,7 @@
 		1D9EDE6B2C9A13FC006F45D3 /* Extenstions */ = {
 			isa = PBXGroup;
 			children = (
+				1D3379092C9DFA35008C83D2 /* UIViewController+Extensions.swift */,
 				1D949E4F2C9B7983008A8F21 /* UITextField+Extensions.swift */,
 				1D949E4D2C9B68EA008A8F21 /* UIColor+Extensions.swift */,
 				1D2424962C9CC9790027B38E /* String+Extensions.swift */,
@@ -219,6 +234,9 @@
 		1D9EDE6C2C9A141E006F45D3 /* Validation */ = {
 			isa = PBXGroup;
 			children = (
+				1D33790D2C9E0166008C83D2 /* PasswordType.swift */,
+				1D33790F2C9E0188008C83D2 /* ValidationError.swift */,
+				1D3379112C9E01A1008C83D2 /* ValidationService.swift */,
 			);
 			path = Validation;
 			sourceTree = "<group>";
@@ -341,6 +359,9 @@
 				1D9EDE672C9A13C3006F45D3 /* CineViewController.swift in Sources */,
 				1D2424892C9CADAD0027B38E /* APIRouter.swift in Sources */,
 				1D9EDE752C9A14B1006F45D3 /* LoginScreenViewController.swift in Sources */,
+				1D3379142C9E01FC008C83D2 /* RegisterViewModel.swift in Sources */,
+				1D33790E2C9E0166008C83D2 /* PasswordType.swift in Sources */,
+				1D3379122C9E01A1008C83D2 /* ValidationService.swift in Sources */,
 				1D2424872C9CAD9E0027B38E /* APIConstants.swift in Sources */,
 				1D24248D2C9CADC60027B38E /* AlamofireLogger.swift in Sources */,
 				1D949E462C9B534D008A8F21 /* CineButton.swift in Sources */,
@@ -348,6 +369,7 @@
 				1D2424992C9CC98C0027B38E /* Data+Extensions.swift in Sources */,
 				1D24248B2C9CADBA0027B38E /* APIClient.swift in Sources */,
 				1D949E502C9B7983008A8F21 /* UITextField+Extensions.swift in Sources */,
+				1D3379102C9E0188008C83D2 /* ValidationError.swift in Sources */,
 				1D2424912C9CB1460027B38E /* MapperObject.swift in Sources */,
 				1D9EDE652C9A1391006F45D3 /* CineNavigationController.swift in Sources */,
 				1D949E482C9B535B008A8F21 /* CineView.swift in Sources */,
@@ -358,8 +380,10 @@
 				1D949E4C2C9B53A6008A8F21 /* CineImageView.swift in Sources */,
 				1D949E4A2C9B5378008A8F21 /* CineActivityIndicator.swift in Sources */,
 				1D9EDE7B2C9A14EE006F45D3 /* RegisterScreenViewController.swift in Sources */,
+				1D33790C2C9DFF95008C83D2 /* LoginViewModel.swift in Sources */,
 				1D9EDE692C9A13DF006F45D3 /* Storyboarded.swift in Sources */,
 				1D24248F2C9CADD60027B38E /* NetworkingErrors.swift in Sources */,
+				1D33790A2C9DFA35008C83D2 /* UIViewController+Extensions.swift in Sources */,
 				1D2424952C9CB1620027B38E /* RegisterModel.swift in Sources */,
 				1D949E4E2C9B68EA008A8F21 /* UIColor+Extensions.swift in Sources */,
 				1D9EDE702C9A145C006F45D3 /* Constants.swift in Sources */,
