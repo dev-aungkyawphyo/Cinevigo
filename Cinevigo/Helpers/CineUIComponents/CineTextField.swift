@@ -89,9 +89,9 @@ class CineTextField: UITextField {
     
     private func addVisibleBtn() {
         let visibleBtn = UIButton(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
-        visibleBtn.setImage(UIImage(named: "Close_Eye"), for: .selected)
+        visibleBtn.setImage(UIImage(named: "close-eye-icon"), for: .selected)
         visibleBtn.imageView?.tintColor = .appColor(.primaryTextColor)
-        visibleBtn.setImage(UIImage(named: "Open_Eye"), for: .normal)
+        visibleBtn.setImage(UIImage(named: "open-eye-icon"), for: .normal)
         visibleBtn.isSelected = true
         isSecureTextEntry = visibleBtn.isSelected
         visibleBtn.addTarget(self, action: #selector(visibleBtnAction(_:)), for: .touchUpInside)

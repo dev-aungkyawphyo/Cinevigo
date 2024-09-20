@@ -44,6 +44,9 @@
                                                 <real key="value" value="22"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="loginBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="GOz-Qu-9KL"/>
+                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Yvi-9u-ea0">
                                         <rect key="frame" x="20" y="250" width="313" height="32"/>
@@ -55,6 +58,9 @@
                                                 <state key="normal" title="Forgot Password?">
                                                     <color key="titleColor" name="PrimaryTextColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="forgotPasswordBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="wq0-ok-HkN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIj-Im-xdZ">
                                                 <rect key="frame" x="253" y="0.0" width="60" height="32"/>
@@ -63,6 +69,9 @@
                                                 <state key="normal" title="Register">
                                                     <color key="titleColor" name="PrimaryTextColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="registerBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="iQY-Vf-Pbe"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -83,6 +92,12 @@
                                                                 <color key="textColor" name="PrimaryTextColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="next" enablesReturnKeyAutomatically="YES" textContentType="tel"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPhoneNumber" value="YES"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Av1-90-e7R">
                                                                 <rect key="frame" x="0.0" y="40" width="313" height="15"/>
@@ -114,6 +129,16 @@
                                                                 <color key="textColor" name="PrimaryTextColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="alphabet" returnKeyType="go" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="lock"/>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="addVisible" value="YES"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="rightPadding">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ak9-Xi-XU7">
                                                                 <rect key="frame" x="0.0" y="40" width="313" height="15"/>
@@ -182,8 +207,14 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="2Uh-1d-3ED">
+            <size key="intrinsicContentSize" width="96.666666666666671" height="18.666666666666668"/>
+        </designable>
         <designable name="Az9-w7-05N">
             <size key="intrinsicContentSize" width="325" height="260"/>
+        </designable>
+        <designable name="VGz-Ar-VnY">
+            <size key="intrinsicContentSize" width="62.333333333333336" height="17"/>
         </designable>
         <designable name="YoS-xK-4DI">
             <size key="intrinsicContentSize" width="40" height="32"/>
@@ -191,6 +222,7 @@
     </designables>
     <resources>
         <image name="CineVigoLogo" width="325" height="260"/>
+        <image name="lock" width="20" height="20"/>
         <namedColor name="BtnTextColor">
             <color red="0.98000001907348633" green="0.98000001907348633" blue="0.98000001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
